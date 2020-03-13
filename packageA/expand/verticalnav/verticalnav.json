@@ -1,0 +1,6 @@
+{
+    "navigationStyle": "custom",
+    "usingComponents": {
+      "mp-navigation-bar": "../../../weui/navigation-bar/navigation-bar"
+  }
+}

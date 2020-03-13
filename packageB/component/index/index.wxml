@@ -1,0 +1,7 @@
+<!--packageB/component/index/index.wxml-->
+<mp-cells title="地地图">
+    <mp-cell link value="拖拽定位" url="component/location/location"></mp-cell>
+    <mp-cell link value="周边兴趣点" url="component/maps/maps"></mp-cell>
+    <mp-cell link value="地址解析"></mp-cell>
+    <mp-cell link value="天气" url="component/weather/weather"></mp-cell>
+</mp-cells>

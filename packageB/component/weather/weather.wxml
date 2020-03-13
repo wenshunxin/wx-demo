@@ -1,0 +1,11 @@
+<!--packageB/component/weather/weather.wxml-->
+<mp-cells >
+    <mp-cell value="城市"  footer="{{obj.liveData.province}}"></mp-cell>
+    <mp-cell link value="位置"  url="../../../pages/selectCity/selectCity" footer="{{obj.liveData.city}}"></mp-cell>
+    <mp-cell value="湿度" footer="{{obj.humidity.data}}"></mp-cell>
+    <mp-cell value="温度" footer="{{obj.temperature.data}}摄氏度"></mp-cell>
+    <mp-cell value="天气" footer="{{obj.weather.data}}"></mp-cell>
+    <mp-cell value="风向" footer="{{obj.winddirection.data}}"></mp-cell>
+    <mp-cell value="风力" footer="{{obj.windpower.data}}"></mp-cell>
+</mp-cells>
+<button type="primary" style="margin-top:40rpx;" bindtap="handleBack">返 回</button>

@@ -1,0 +1,19 @@
+<!--packageB/index.wxml-->
+<mp-navigation-bar
+    loading="{{headerTitle.loading}}" 
+    show="{{headerTitle.show}}" 
+    animated="{{headerTitle.animated}}" 
+    color="{{headerTitle.color}}" 
+    background="{{headerTitle.background}}" 
+    title="Thor UI" 
+    back="{{back}}"
+></mp-navigation-bar>
+
+<Home wx:if="{{plugin == 'Home'}}"></Home>
+<Plugin wx:if="{{plugin == 'Plugin'}}"></Plugin>
+
+ <mp-tabbar 
+    style="position:fixed;bottom:0;width:100%;left:0;right:0;" 
+    list="{{list}}" 
+    bindchange="tabChange"
+ ></mp-tabbar>

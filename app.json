@@ -1,0 +1,43 @@
+{
+	"pages": [ 
+        "pages/index/index", 
+        "pages/logs/logs",
+        "pages/video-swiper/video-swiper",
+        "pages/selectCity/selectCity",
+        "pages/indexes/indexes"
+        
+    ],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#1CBBB4",
+		"navigationBarTitleText": "微信小程序案例",
+		"navigationBarTextStyle": "black"
+	},
+	"style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "subPackages":[
+        {
+            "root":"packageA",
+            "pages":[
+                "index",
+                "chart/line/line",
+                "chart/bar/bar",
+                "chart/index",
+                "expand/index",
+                "expand/verticalnav/verticalnav",
+                "expand/drawer/drawer"
+            ]
+        },
+        {
+            "root":"packageB",
+            "pages":[
+                "index",
+                "component/index/index",
+                "component/weather/weather",
+                "component/location/location",
+                "component/maps/maps",
+                "plugin/index/index"
+            ]
+        }
+    ]
+}

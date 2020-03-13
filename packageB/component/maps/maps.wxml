@@ -1,0 +1,18 @@
+<!-- packageB/component/maps/maps.wxml -->
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" bind:search="onSearch" />
+<map latitude="{{lat}}" longitude="{{lng}}" markers="{{covers}}" style="height:{{height}}px;" bindmarkertap="marker" scale="12"></map>
+<scroll-view  scroll-y="{{true}}" style="height:{{height}}px;">
+    <view class="tui-item-ui" wx:for="{{poisData}}" wx:key="name" wx:for-index="index">
+        <view class="tui-title">{{item.name}}</view>
+        <view class="tui-footer">
+            <view>
+                <text wx:if="{{item.distance}}">{{item.distance || '0' }}m</text>
+                <text>{{item.address}}</text>
+            </view>
+            <view>
+                <image src="../../../static/images/my/call.png" />
+                <image bindtap="go" data-id="{{index}}" src="../../../static/images/my/go.png" />
+            </view>
+        </view>
+    </view>
+</scroll-view>

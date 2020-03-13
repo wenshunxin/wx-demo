@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText":"城市选择器",
+    "usingComponents": {
+        "mp-icon": "../../weui/icon/icon"
+    }
+}

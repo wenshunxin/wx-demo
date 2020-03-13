@@ -1,0 +1,8 @@
+<!--pages/pageCharts//expand/index.wxml-->
+<view>
+    <view class="cu-card">
+        <view class="cu-item bg-img shadow-blur" style="background-image:url({{item.img}})" wx:key="index" bindtap="toChild" data-url="{{item.url}}" wx:for="{{list}}" >
+            <view class="cardTitle">{{item.title}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText":"天气",
+    "navigationBarTextStyle":"white",
+	"usingComponents": {
+        "mp-cell": "../../../weui/cell/cell",
+        "mp-cells": "../../../weui/cells/cells"
+    }
+}

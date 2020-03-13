@@ -1,0 +1,20 @@
+<!-- pages/chart/index.wxml -->
+<mp-navigation-bar 
+    loading="{{loading}}" 
+    show="{{show}}" 
+    animated="{{animated}}" 
+    color="{{color}}" 
+    background="{{background}}" 
+    title="UI组件库" 
+    back="{{true}}"
+></mp-navigation-bar>
+<view style="padding-bottom:120rpx;">
+    <index wx:if="{{pageCur=='Index'}}"></index>
+    <line wx:if="{{pageCur=='Line'}}"></line>
+    <expand wx:if="{{pageCur == 'Expand'}}"></expand>
+    <mp-tabbar 
+        style="position:fixed;bottom:0;width:100%;left:0;right:0;" 
+        list="{{list}}" 
+        bindchange="tabChange"
+    ></mp-tabbar>
+</view>

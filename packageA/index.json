@@ -1,0 +1,12 @@
+{
+    "navigationStyle": "custom",
+    "navigationBarTitleText":"图表",
+    "usingComponents": {
+        "chartf2":"/components/chart/line/line",
+        "mp-tabbar": "../weui/tabbar/tabbar",
+        "mp-navigation-bar": "../weui/navigation-bar/navigation-bar",
+        "index":"./chart/index",
+        "line":"./chart/line/line",
+        "expand":"./expand/index"
+    }
+}

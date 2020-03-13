@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view hover-class="none">
+    {{sharedText}}
+    <button  bindtap="sharedMethod">按钮</button>
+    <button  bindtap="gologpage">跳 转</button>
+        <!-- wxml -->
+    <wxs module="m1">
+        var msg = "hello world";
+        module.exports.message = msg;
+    </wxs>
+    <view>{{m1.message}}</view>
+    <mp-cells title="拓展项">
+        <mp-cell link value="城市选择" footer=""  url="../selectCity/selectCity"></mp-cell>
+        <mp-cell link value="索引+吸顶效果" footer="" url="../indexes/indexes"></mp-cell>
+        <mp-cell link url="../video-swiper/video-swiper" value="video-swiper" footer=""></mp-cell>
+        <mp-cell link url="../../packageA/index" value="packageA" footer=""></mp-cell>
+        <mp-cell link url="../../packageB/index" value="packageB" footer=""></mp-cell>
+    </mp-cells>
+</view>

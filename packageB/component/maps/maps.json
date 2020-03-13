@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "选择位置",
+    "navigationBarTextStyle": "white",
+    "usingComponents": {
+      "van-search": "../../../vant//search/index"
+    }
+}

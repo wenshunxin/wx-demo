@@ -1,0 +1,4 @@
+/* pages/pageCharts//chart/bar/bar.wxss */
+.container{
+    height: 800rpx;
+}

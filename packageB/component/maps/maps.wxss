@@ -1,0 +1,44 @@
+/* packageB/component/maps/maps.wxss */
+map {
+	height: 560rpx;
+	width: 100%;
+}
+.tui-item-ui {
+	width: 100%;
+	padding: 20rpx 30rpx;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-bottom: 1px solid red;
+}
+.tui-item-ui .tui-title {
+	font-size: 32rpx;
+	font-weight: 600;
+	margin-bottom: 20rpx;
+}
+.tui-item-ui:last-child {
+	border: 0;
+}
+.tui-item-ui view:last-child {
+	display: flex;
+	justify-content: space-between;
+}
+.tui-footer view:first-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tui-footer view:first-child text:first-child {
+	color: blue;
+}
+.tui-footer view:first-child text:last-child {
+	width: 230px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+.tui-footer image {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+}

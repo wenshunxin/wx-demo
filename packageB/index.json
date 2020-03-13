@@ -1,0 +1,10 @@
+{   
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "Thor UI",
+	"usingComponents": {
+        "mp-tabbar": "../weui/tabbar/tabbar",
+        "mp-navigation-bar": "../weui/navigation-bar/navigation-bar",
+        "Home":"./component/index/index",
+        "Plugin":"./plugin/index/index"
+    }
+}

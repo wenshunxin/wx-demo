@@ -1,0 +1,6 @@
+<!--pages/pageCharts//chart/index/index.wxml-->
+<mp-cells title="图标">
+    <mp-cell link value="折线图" footer="" url="./line/line"></mp-cell>
+    <mp-cell link value="曲线图" footer="" url="./line/line"></mp-cell>
+    <mp-cell link value="柱状图" footer="" url="./bar/bar"></mp-cell>
+</mp-cells>
